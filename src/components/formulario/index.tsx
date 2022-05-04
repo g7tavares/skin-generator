@@ -1,6 +1,7 @@
 import { Container, Content1, Content2, Header } from "./styles";
 
 export function Formulario() {
+
   return (
     <Container>
       <Header className="row">
@@ -90,7 +91,7 @@ export function Formulario() {
             <option>CROWN (FOIL)</option>
           </select>
 
-          <button type="submit">GENERATE SKIN</button>
+          <button type="button">GENERATE SKIN</button>
           <p>
           Chat Command: <span>(Copy)</span>{" "}
           </p>

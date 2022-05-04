@@ -1,8 +1,8 @@
-import styled from "styled-components";
 import { transparentize } from "polished";
+import styled from "styled-components";
 
-export const Container = styled.div`
-  margin-top: -10rem;
+export const Container = styled.form`
+  /* margin-top: -10rem; */
   background-color: var(--background);
   border-radius: 0.5rem;
   padding: 1.5rem 2rem;
@@ -103,4 +103,4 @@ export const Content2 = styled.div`
     p.text {
       font-size: 2rem;
     }
-`;
+`
